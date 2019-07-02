@@ -3,7 +3,7 @@
     {
       "id":0,
       "project_name":"random quotes generator",
-      "description":"It make random quotes on the screen. It iterates every seconds but also can stop it and iterate manualy",
+      "description":"it make random quotes on the screen. It iterates every seconds but also can stop it and iterate manualy. I put it on my own website using AWS. It's on the S3 bucket and just a static website hosting from S3.",
       "technology":["Basic vanila javascript", "settimeout"],
       "live_link":"https://teen16y.github.io/1_random_qoute_generator/",
       "github_link":"https://github.com/teen16y/1_random_qoute_generator",
@@ -12,8 +12,8 @@
     },
     {
       "id":1,
-      "project_name":"list pagination and filtering",
-      "description":"implemented pagination feature and live reacting filtering",
+      "project_name":"List pagination and filtering",
+      "description":"Implemented pagination feature and live reacting filtering",
       "technology":["Basic vanila javascript", "manifulating dom"],
       "live_link":"https://teen16y.github.io/2_list_pagination_and_filtering/",
       "github_link":"https://github.com/teen16y/2_list_pagination_and_filtering",
@@ -23,8 +23,8 @@
     },
     {
       "id":2,
-      "project_name":"interactive form",
-      "description":"made a form interact with users. It shows which input element is not valid and why in real-time",
+      "project_name":"Interactive form",
+      "description":"Made a form interact with users. It shows which input element is not valid and why in real-time",
       "technology":["jQuery", "manifulating form element", "chrome dev tool"],
       "live_link":"https://teen16y.github.io/3_interactive-form/",
       "github_link":"https://github.com/teen16y/3_interactive-form",
@@ -33,8 +33,8 @@
     },
     {
       "id":3,
-      "project_name":"phrase hunter",
-      "description":"a game for matching phrase",
+      "project_name":"Phrase hunter",
+      "description":"A game for matching phrase",
       "technology":["jQuery", "Object oriented javascript", "AJAX"],
       "live_link":"https://teen16y.github.io/oop_game-v2/",
       "github_link":"https://github.com/teen16y/oop_game-v2",
@@ -43,8 +43,8 @@
     },
     {
       "id":4,
-      "project_name":"public api request",
-      "description":"making a simple profile cards using public api for getting random people profile",
+      "project_name":"Public api request",
+      "description":"Making a simple profile cards using public api for getting random people profile",
       "technology":["public api request", "AJAX"],
       "live_link":"https://teen16y.github.io/5_public_api_request-v1/",
       "github_link":"https://github.com/teen16y/5_public_api_request-v1",

@@ -8,6 +8,9 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Barriecito|Indie+Flower|Just+Another+Hand|Shadows+Into+Light&display=swap', rel='stylesheet')
+
+
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -16,12 +19,11 @@ html(class="no-js" lang="en" dir="ltr")
           .cell.shrink
             img.thumbnail(src='/static/images/0_profile.jpeg')
           .cell.auto
-
             //- Add your name here.
             h5 Ha YoungJin 
 
             //- Add text here to describe who you are, what you do, and why you are so aweome.
-            p.text-light
+            p.text-light.font-hand
               | Want to be an 
               br
               | Odd developer
@@ -32,6 +34,7 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add about page route to the href below. 
             a(href='/about') Learn More →
+          img.logo(src='/static/images/honeybee_logo_white.png')
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

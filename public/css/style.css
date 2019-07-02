@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,p{
 
 .text-light{
   color: #666;
+
 }
 
 .button{
@@ -162,3 +163,68 @@ a:hover{
     width: 30%;
     height: auto;
   }
+
+/* custom for logo */
+.logo{
+  height:auto;
+  width:30%;
+  animation:logoRotate 1s ease;
+}
+
+
+/* custom for page animation */
+.grid-container{
+  animation: slideIn .3s ease;
+}
+
+@keyframes logoRotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity:0;
+    transform: translate(100px,0);
+  }
+  100% {
+    opacity:1;
+    transform: translate(0,0);
+  }
+}
+
+.project-title:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 2px solid;
+  margin-top: 20px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.project-title:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.title-wrapper {
+  position: relative;
+}
+
+/* custom font  */
+.font-hand{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+}
