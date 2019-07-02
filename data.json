@@ -1,0 +1,56 @@
+{
+  "projects":[
+    {
+      "id":0,
+      "project_name":"random quotes generator",
+      "description":"It make random quotes on the screen. It iterates every seconds but also can stop it and iterate manualy",
+      "technology":["Basic vanila javascript", "settimeout"],
+      "live_link":"https://teen16y.github.io/1_random_qoute_generator/",
+      "github_link":"https://github.com/teen16y/1_random_qoute_generator",
+      "img_urls":["static/images/1_random_quotes.png",
+        "static/images/1_random-quotes_2.png"]
+    },
+    {
+      "id":1,
+      "project_name":"list pagination and filtering",
+      "description":"implemented pagination feature and live reacting filtering",
+      "technology":["Basic vanila javascript", "manifulating dom"],
+      "live_link":"https://teen16y.github.io/2_list_pagination_and_filtering/",
+      "github_link":"https://github.com/teen16y/2_list_pagination_and_filtering",
+      "img_urls":["static/images/2_list_pagination_filter_1.png",
+        "static/images/2_list_pagination_filter_2.png",
+        "static/images/2_list_pagination_filter_3.png"]
+    },
+    {
+      "id":2,
+      "project_name":"interactive form",
+      "description":"made a form interact with users. It shows which input element is not valid and why in real-time",
+      "technology":["jQuery", "manifulating form element", "chrome dev tool"],
+      "live_link":"https://teen16y.github.io/3_interactive-form/",
+      "github_link":"https://github.com/teen16y/3_interactive-form",
+      "img_urls":["static/images/3_interactive_form_1.png",
+        "static/images/3_interactive_form_2.png"]
+    },
+    {
+      "id":3,
+      "project_name":"phrase hunter",
+      "description":"a game for matching phrase",
+      "technology":["jQuery", "Object oriented javascript", "AJAX"],
+      "live_link":"https://teen16y.github.io/oop_game-v2/",
+      "github_link":"https://github.com/teen16y/oop_game-v2",
+      "img_urls":["static/images/4_phrase_hunter_1.png",
+      "static/images/4_phrase_hunter_2.png"]
+    },
+    {
+      "id":4,
+      "project_name":"public api request",
+      "description":"making a simple profile cards using public api for getting random people profile",
+      "technology":["public api request", "AJAX"],
+      "live_link":"https://teen16y.github.io/5_public_api_request-v1/",
+      "github_link":"https://github.com/teen16y/5_public_api_request-v1",
+      "img_urls":["static/images/5_public_api_request_1.png",
+        "static/images/5_public_api_request_2.png"]
+    }
+
+  ]
+}
