@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "npm install && node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "youngjin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
